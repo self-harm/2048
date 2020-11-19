@@ -21,7 +21,6 @@ public class Game2048 extends Game {
             for(int j=0; j<SIDE;j++)
             setCellColoredNumber(i,j, gameField[j][i]);
         }
-
     }
 
     private void createNewNumber() {
